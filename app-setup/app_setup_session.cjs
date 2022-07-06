@@ -3,8 +3,8 @@ const session = require("express-session");
 let currentSession = 
 
     session({
-        name: process.env.SESSION_SECRET,
-        secret: process.env.SESSION_SECRET,
+        name: 'session-name-website',
+        secret: 'session-secret-website',
         resave: false,
         saveUninitialized: false,
         cookie:{ 
