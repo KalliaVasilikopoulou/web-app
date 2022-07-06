@@ -7,7 +7,7 @@ const client = new Client({
     // host: process.env.PG_HOST,
     // database: process.env.PG_DATABASE,
     // password: benzaiten2014,
-    // port: '1000',
+    port: '1000',
     connectionString: 'https://data.heroku.com/dataclips/myuyvblbtehgbranaxcpokofmrwq',
     ssl: { rejectUnauthorized: false }
     // idleTimeoutMillis: 0,
